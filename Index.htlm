@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neowaleeth</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+    }
+    header {
+      background: #0ea5e9;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #1e293b;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0ea5e9;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #0ea5e9;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+    .card {
+      background: #334155;
+      border-radius: 12px;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    footer {
+      background: #0f172a;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌍 Neowaleeth
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Neowaleeth</h1>
+    <p>A new digital space connecting ideas, technology, and people across the globe 🌍✨</p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h2>🌐 Global Vision</h2>
+      <p>Connecting people worldwide with a friendly digital face.</p>
+    </div>
+    <div class="card">
+      <h2>🤝 Community</h2>
+      <p>Building a platform where collaboration thrives.</p>
+    </div>
+    <div class="card">
+      <h2>🚀 Innovation</h2>
+      <p>Driving change with creativity and modern technology.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Neowaleeth. All rights reserved.
+  </footer>
+</body>
+</html>
